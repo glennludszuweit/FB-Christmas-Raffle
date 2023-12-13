@@ -41,10 +41,10 @@ const WinnerPicker = () => {
       </div>
       {winner && !isLoading && (
         <div className='flex flex-col items-center justify-center'>
-          <p className='text-[red] text-[75px] mb-5 animate-bounce font-dancing italic'>
+          <p className='text-[red] text-[50px] mb-5 font-dancing italic'>
             Congratulations!
           </p>
-          <p className='bg-gradient-to-r from-blue-800 via-[#3c8d0d] to-orange-500 inline-block text-transparent bg-clip-text text-[100px] animate-pulse font-xmas font-[700]'>
+          <p className='bg-gradient-to-r from-blue-800 via-[#3c8d0d] to-orange-600 inline-block text-transparent bg-clip-text text-[100px] animate-bounce font-xmas font-[700]'>
             {' '}
             {winner}
           </p>
